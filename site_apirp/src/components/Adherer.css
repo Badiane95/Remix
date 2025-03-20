@@ -1,0 +1,86 @@
+.adherer-container {
+    padding: 50px;
+}
+
+.adherer-content2 .button{
+    padding: 10px 20px;
+    margin-top: 30px;
+    font-size: 1rem;
+    background-color: #CD212A;
+    color: white;
+    border: solid 2px #CD212A;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.adherer-content2 .button:hover{
+    background-color: #fff;
+    color: #CD212A;
+    border: solid 2px #CD212A;
+    border-radius: 5px;
+}
+
+.p {
+    margin-bottom: 10px;
+    margin-top : 10px;
+}
+
+
+.adherer-content1 {
+    display: flex;
+    /* background-color: blueviolet; */
+    margin-top: 60px;
+    padding: 50px;
+}
+.adherer-image{
+    border: #008C45 solid 3px;
+    border-radius: 10px;
+    object-fit: contain;
+    width: 40%;
+}
+.txt-content{
+    width: 60%;
+    margin-bottom: 30px;
+}
+
+.txt-content .h2{
+    text-transform: uppercase;
+    color: #008C45;
+    text-align: center;
+    text-decoration: #008C45 underline;
+    margin-bottom: 30px;
+    
+}
+.txt-content .h3{
+    color: #000;
+    font-weight: bolder;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.txt-content .ol{
+    color: #000;
+    margin-left: 20px; /* Espace entre le marqueur et le texte */
+    margin-bottom: 10px;
+}
+
+.custom-ol > li::before {
+    font-weight: bold; /* Rendre les puces en gras */
+    content: "•"; /* Utiliser un point comme marqueur */
+    margin-right: 5px; /* Espace entre le marqueur et le texte */
+   
+}
+
+.ul {
+    margin-left: 30px;
+}
+
+.adherer-content2 {
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    
+}
+.adherer-content2 .h2{
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}

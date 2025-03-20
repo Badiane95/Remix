@@ -1,0 +1,49 @@
+.hero-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+}
+
+.hero-content {
+    max-width: 50%;
+}
+
+.hero-content h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.hero-content p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.hero-content button {
+    padding: 10px 20px;
+    width: 50%;
+    font-size: 1rem;
+    background-color: #008C45;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.hero-content button:hover {
+    background-color: #004c26;
+}
+
+.hero-image {
+    width: 50%; /* Ajuste la largeur de l'image selon tes besoins */
+    border-radius: 10px; /* Ajoute des bordures arrondies */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Ajoute une ombre légère */
+}
+
+.hero-divider {
+    width: 50%; /* Ajuste la largeur de la ligne de démarcation */
+    height: 2px; /* Ajuste l'épaisseur de la ligne de démarcation */
+    background-color: #000; /* Couleur de la ligne de démarcation */
+    margin: 20px auto; /* Marge autour de la ligne de démarcation */
+}

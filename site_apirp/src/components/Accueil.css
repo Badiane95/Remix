@@ -1,0 +1,67 @@
+.accueil-container1{
+    padding : 50px;
+}
+
+.hero {
+    position: relative; /* Assure que le conteneur est positionné de manière relative */
+    padding: 200px;
+    text-transform: uppercase;
+    color: #cd212a;
+    box-sizing: border-box;
+}
+  
+.hero::before {
+    content: ''; /* Obligatoire pour les pseudo-éléments */
+    position: absolute; /* Positionne l'élément par rapport à son parent (.hero) */
+    top: 0;
+    left: 0;
+    width: 100%; /* Prend toute la largeur du conteneur */
+    height: 100%; /* Prend toute la hauteur du conteneur */
+    background-image: url('../img/Header_home1.png'); /* Chemin vers ton image */
+    background-size: contain; /* Redimensionne l'image pour couvrir tout le conteneur */
+    background-position: center; /* Centre l'image horizontalement et verticalement */
+    z-index: -1; /* Place le pseudo-élément derrière les autres éléments */
+    /* Ajoute d'autres styles au besoin */
+}
+  
+.hero-content {
+    position: relative; /* Assure que les éléments à l'intérieur sont positionnés correctement */
+    z-index: 1; /* Place le contenu au-dessus de l'image de fond */
+    /* Ajoute d'autres styles au besoin */
+}
+
+.accueil-container1 .h1{
+    text-transform: uppercase;
+    color: #000;
+}
+
+.img{
+    width: 100%;
+    margin: 30px 0;
+}
+
+.txt{
+    padding: 0 20px;
+    margin-left: 80px;
+    margin-bottom: 20px;
+    border-left: solid 2px #008C45;
+    margin-top: 30px;
+}
+.txt2{
+    text-decoration: none;
+    text-align: left;
+    margin-right: 30px;
+    
+}
+
+.accueil-container2 .h2{
+    padding-top: 20px;
+    color: #008C45;
+    text-align: center;
+    text-decoration: none;
+  
+}
+.accueil-container2 .p{
+    text-align: center;
+}
+

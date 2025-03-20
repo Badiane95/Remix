@@ -1,0 +1,59 @@
+.university-table {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    border-collapse: collapse; /* Permet de fusionner les bordures des cellules  */
+}
+
+.university-row {
+    display: flex;
+    flex: 1; /* Le tableau prend toute la largeur disponible */
+    /* padding: 8px; */
+    padding: 50px;
+}
+
+.university-column {
+    /* flex: 1; */
+    padding: 8px;
+}
+
+.university-column:nth-child(1) {
+    flex-direction: column; /* Les éléments de la première colonne se suivent */
+    width: 40%;
+    border-right: 1.5px solid #000; /* Bordure à droite de la première colonne */
+}
+.university-column:nth-child(2) {
+    flex-direction: column; /* Les éléments de la première colonne se suivent */
+    width: 60%;
+}
+
+.university-column img,
+.university-column h3,
+.university-column a {
+    display: flex; /* Alignement vertical des éléments */
+    align-items: center; /* Alignement au centre vertical */
+}
+
+.university-column img {
+    width: 150px; /* Largeur souhaitée */
+    height: auto; /* Hauteur automatique pour maintenir les proportions */
+}
+
+.university-column a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.university-column a:hover {
+    text-decoration: underline;
+}
+
+.university-column h3{
+    text-transform: uppercase;
+    color: #CD212A;
+}
+
+.h4{
+    background-color: rgb(201, 201, 201);
+    padding: 10px;
+}

@@ -1,0 +1,54 @@
+/* Actualite.css */
+
+.actualite-container {
+    display: flex;
+    flex-wrap: wrap; /* Permet le retour à la ligne des éléments */
+    justify-content: space-between; /* Répartit les éléments sur la ligne avec un espace entre eux */
+    padding: 20px;
+}
+
+.actualite-box {
+    width: calc(25% - 20px); /* Largeur de chaque boîte avec une marge de 20px autour */
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    /* border: 1px solid #ccc; */
+    border-radius: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    transition: transform 0.3s ease; /* Animation de transition pour l'effet de zoom */
+    margin-bottom: 20px; /* Marge inférieure pour créer un espace entre les lignes */
+    box-sizing: border-box; /* Inclut la bordure et le rembourrage dans la largeur et la hauteur */
+    height: 350px;
+}
+
+.actualite-box:hover {
+    transform: scale(1.05); /* Zoom au survol */
+}
+
+.actualite-image {
+    width: 100%;
+    height: 150px; /* Limite de hauteur pour l'image */
+    object-fit: cover; /* Ajustement de l'image pour remplir le conteneur */
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.actualite-title {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    color: #cd212a;
+}
+
+.actualite-description {
+    font-size: 0.9rem;
+    color: #000;
+    text-align: left;
+    overflow: hidden; /* Masque le texte dépassant de la hauteur maximale */
+    text-overflow: ellipsis; /* Affiche des points de suspension (...) pour le texte dépassant */
+    white-space: nowrap; /* Empêche le texte de passer à la ligne */
+}
+
+.actualite-link{
+    text-decoration: none;
+    text-transform: none;
+}

@@ -1,0 +1,25 @@
+.enseigner-container{
+    padding: 50px;
+}
+
+.enseigner-content1{
+    padding-top: 30px;
+}
+.enseigner-content1 .h1{
+    text-transform: uppercase;
+    color: #CD212A;
+    padding-bottom: 15px;
+}
+
+.content-txt{
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
+.link{
+    color: #008C45;
+}
+
+.p {
+    margin-bottom: 10px;
+}
