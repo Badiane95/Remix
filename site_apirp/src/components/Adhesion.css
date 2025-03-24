@@ -1,0 +1,95 @@
+/* Adherer.css - Additions */
+.adherer-form {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }
+  
+  fieldset {
+    border: 2px solid #008C45;
+    border-radius: 8px;
+    margin: 2rem 0;
+    padding: 1.5rem;
+  }
+  
+  legend {
+    color: #008C45;
+    font-weight: bold;
+    padding: 0 0.5rem;
+  }
+  
+  .form-group {
+    margin-bottom: 1.5rem;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 0.5rem;
+    color: #333;
+    font-weight: 500;
+  }
+  
+  input[type="text"],
+  input[type="tel"],
+  input[type="email"] {
+    width: 100%;
+    padding: 0.8rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-top: 0.3rem;
+  }
+  
+  .inline-fields {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 1rem;
+    margin-top: 0.5rem;
+  }
+  
+  .radio-group,
+  .checkbox-group {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-top: 0.5rem;
+  }
+  
+  .radio-group label,
+  .checkbox-group label {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  
+  .montant-cotisation {
+    padding: 1rem;
+    background: #f8f9fa;
+    border-radius: 4px;
+    margin: 1.5rem 0;
+  }
+  
+  .montant-options {
+    display: flex;
+    gap: 2rem;
+    margin-top: 1rem;
+  }
+  
+  .authorization {
+    background: #fff3cd;
+    padding: 1rem;
+    border-radius: 4px;
+    margin: 1.5rem 0;
+  }
+  
+  .confirmation-message {
+    background: #d4edda;
+    color: #155724;
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 4px;
+    text-align: center;
+  }
+  
